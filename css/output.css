@@ -795,6 +795,16 @@ button {
   color: hsl(0 0% 12% / var(--tw-text-opacity));
 }
 
+.focus\:\*\:bg-primary-color > *:focus {
+  --tw-bg-opacity: 1;
+  background-color: hsl(75 94% 57% / var(--tw-bg-opacity));
+}
+
+.focus\:\*\:text-dark-grey > *:focus {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 12% / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:p-10 {
     padding: 2.5rem;
