@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["index.html"],
   theme: {
+    fontSize: {
+      sm: "clamp(0.875rem, 1vw, 2rem)",
+      "2xl": "clamp(1.5rem, 1vw, 3rem)",
+    },
     extend: {
       colors: {
         "primary-color": "hsl(75, 94%, 57%)",
