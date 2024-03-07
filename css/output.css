@@ -447,37 +447,13 @@ video {
 @font-face {
   font-family: "Inter";
 
-  src: url(../assets/fonts/static/Inter-Regular.ttf) format("truetype");
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
 
   font-display: swap;
 
   font-style: normal;
 
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-
-  src: url(../assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
-
-  font-display: swap;
-
-  font-style: normal;
-
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Inter";
-
-  src: url(../assets/fonts/static/Inter-Bold.ttf) format("truetype");
-
-  font-display: swap;
-
-  font-style: normal;
-
-  font-weight: 700;
 }
 
 button {
@@ -657,6 +633,10 @@ button {
   justify-content: center;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -744,10 +724,6 @@ button {
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.\*\:h-12 > * {
-  height: 3rem;
 }
 
 .\*\:h-11 > * {
